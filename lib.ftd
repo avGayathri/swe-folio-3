@@ -1,0 +1,293 @@
+-- import: shaheen-senpai.github.io/limelight-font/assets as limelight-font-assets
+
+
+-- component swe-folio-3:
+string title: 
+string work-link:
+string social-link:
+string contact-link:
+string about-link:
+boolean $hover-text-work: false
+boolean $hover-text-social: false
+boolean $hover-text-contact: false
+boolean $hover-text-about: false
+body about:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.image: $assets.files.assets.bg.jpg
+
+-- ftd.column:
+width.fixed.vw: 68
+align-self: center 
+height: fill-container
+margin-vertical.vw: 5
+margin-horizontal.vw: 5
+background.solid: #d6663d
+
+-- ftd.row:
+width: fill-container
+align-content: center
+padding.vw: 2
+
+-- ftd.text: $swe-folio-3.title
+role: $limelight-font-size-38-400
+color: #000000
+
+-- end: ftd.row
+
+-- ftd.row:
+margin-horizontal.vw: 2
+align-self: center 
+
+-- ftd.text: $swe-folio-3.about
+role:  $limelight-font-size-20-400
+color: #000000
+
+-- end: ftd.row
+
+-- ftd.row:
+align-self: center
+margin-horizontal.vw: 4
+
+-- ftd.text: Here you can see some of my latest
+role:  $limelight-font-size-20-400
+color: #000000
+
+-- ftd.text: WORK
+role:  $limelight-font-size-24-400
+color: #b7ab98
+margin-left.px: 12
+link: $swe-folio-3.work-link
+color if {swe-folio-3.hover-text-work}: white
+$on-mouse-enter$: $ftd.set-bool($a = $swe-folio-3.hover-text-work, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-work, v = false)
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-horizontal.vw: 4
+margin-top.vw: 2
+align-self: center
+
+-- ftd.text: Feel free to snoop around on my 
+role: $limelight-font-size-20-400
+color: #000000
+
+-- ftd.text: SOCIAL MEDIA
+role: $limelight-font-size-24-400
+color: #b7ab98
+margin-left.px: 12
+link: $swe-folio-3.social-link
+color if {swe-folio-3.hover-text-social}: white
+$on-mouse-enter$: $ftd.set-bool($a = $swe-folio-3.hover-text-social, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-social, v = false)
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-horizontal.vw: 4
+align-self: center
+
+-- ftd.text: For inquiries or a how you doing 
+role: $limelight-font-size-20-400
+color: #000000
+
+-- ftd.text: CONTACT ME,
+role: $limelight-font-size-24-400
+color: #b7ab98
+margin-left.px: 12
+link: $swe-folio-3.contact-link
+color if {swe-folio-3.hover-text-contact}: white
+$on-mouse-enter$: $ftd.set-bool($a = $swe-folio-3.hover-text-contact, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-contact, v = false)
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-horizontal.vw: 4
+align-self: center
+
+-- ftd.text: I would be happy to hear from you 
+role: $limelight-font-size-20-400
+color: #000000
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-horizontal.vw: 4
+align-self: center
+margin-top.vw: 2
+
+-- ftd.text: P.S. If this wasn't enough for you no worries!  
+role: $limelight-font-size-20-400
+color: #000000
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-horizontal.vw: 4
+align-self: center
+padding-bottom.vw: 4
+
+-- ftd.text: you can also find more 
+role: $limelight-font-size-20-400
+color: #000000
+
+-- ftd.text: ABOUT 
+role: $limelight-font-size-24-400
+color: #b7ab98
+margin-left.px: 12
+link: $swe-folio-3.about-link
+color if {swe-folio-3.hover-text-about}: white
+$on-mouse-enter$: $ftd.set-bool($a = $swe-folio-3.hover-text-about, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-about, v = false)
+
+-- ftd.text: me here ;) 
+role: $limelight-font-size-20-400
+color: #000000
+margin-left.px: 8
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: swe-folio-3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- ftd.type limelight-font-size-20-desktop:
+size.px: 20
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+
+-- ftd.type limelight-font-size-20-mobile:
+size.px: 20
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+-- ftd.responsive-type limelight-font-size-20-400:
+desktop: $limelight-font-size-20-desktop
+mobile: $limelight-font-size-20-mobile
+
+
+
+
+
+-- ftd.type limelight-font-size-24-desktop:
+size.px: 24
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+
+-- ftd.type limelight-font-size-24-mobile:
+size.px: 24
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+-- ftd.responsive-type limelight-font-size-24-400:
+desktop: $limelight-font-size-24-desktop
+mobile: $limelight-font-size-24-mobile
+
+
+
+
+
+
+
+
+-- ftd.type limelight-font-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+
+-- ftd.type limelight-font-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+-- ftd.responsive-type limelight-font-size-12-400:
+desktop: $limelight-font-size-12-desktop
+mobile: $limelight-font-size-12-mobile
+
+
+
+
+
+
+-- ftd.type limelight-font-size-72-desktop:
+size.px: 72
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+
+-- ftd.type limelight-font-size-72-mobile:
+size.px: 42
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+-- ftd.responsive-type limelight-font-size-72-400:
+desktop: $limelight-font-size-72-desktop
+mobile: $limelight-font-size-72-mobile
+
+
+
+
+
+
+-- ftd.type fira-code-size-16-desktop:
+size.px: 16
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-16-mobile:
+size.px: 16
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-16-400:
+desktop: $fira-code-size-16-desktop
+mobile: $fira-code-size-16-mobile
+
+
+
+
+-- ftd.type limelight-font-size-38-desktop:
+size.px: 38
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+
+-- ftd.type limelight-font-size-26-mobile:
+size.px: 26
+weight: 400
+font-family: $limelight-font-assets.fonts.Limelight
+
+-- ftd.responsive-type limelight-font-size-38-400:
+desktop: $limelight-font-size-38-desktop
+mobile: $limelight-font-size-26-mobile
