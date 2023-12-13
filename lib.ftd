@@ -162,6 +162,7 @@ margin-left.px: 8
 -- ftd.column:
 if: { ftd.device == "mobile" }
 width: fill-container
+height: fill-container
 background.image: $assets.files.assets.bg.jpg
 
 -- ftd.column:
