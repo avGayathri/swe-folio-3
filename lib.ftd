@@ -26,8 +26,7 @@ background.image: $assets.files.assets.bg.jpg
 -- ftd.column:
 width.fixed.vw: 68
 align-self: center 
-;;height: fill-container
-margin-vertical.vw: 5
+margin-vertical.vw: 9
 margin-horizontal.vw: 5
 background.solid: #d6663d
 
