@@ -1,7 +1,9 @@
 -- ftd.column:
-width.fixed.vw: 80
-margin-top.vw: 4
-align-self: center
+width: fill-container
+height: fill-container
+;;width.fixed.vw: 80
+;;margin-top.vw: 4
+;;align-self: center
 
 
 -- lib.swe-folio-3:
