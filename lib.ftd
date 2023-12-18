@@ -274,6 +274,7 @@ color: #000000
 
 -- ftd.column:
 padding-horizontal.vw: 2
+margin-bottom.vw: 8
 
 -- ftd.text: you can also find more 
 role: $limelight-font-size-20-400
