@@ -164,6 +164,7 @@ if: { ftd.device == "mobile" }
 width: fill-container
 height: fill-container
 background.image: $assets.files.assets.bg.jpg
+align-content: center
 
 -- ftd.column:
 width.fixed.vw: 88
