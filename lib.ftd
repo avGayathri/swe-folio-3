@@ -46,7 +46,7 @@ margin-horizontal.vw: 2
 align-self: center 
 
 -- ftd.text: $swe-folio-3.about
-role:  $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- end: ftd.row
@@ -56,7 +56,7 @@ align-self: center
 margin-horizontal.vw: 4
 
 -- ftd.text: Here you can see some of my latest
-role:  $limelight-font-size-20-400
+role:   $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: WORK
@@ -76,7 +76,7 @@ margin-top.vw: 2
 align-self: center
 
 -- ftd.text: Feel free to snoop around on my 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: SOCIAL MEDIA
@@ -95,7 +95,7 @@ padding-horizontal.vw: 4
 align-self: center
 
 -- ftd.text: For inquiries or a how you doing 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: CONTACT ME,
@@ -114,7 +114,7 @@ padding-horizontal.vw: 4
 align-self: center
 
 -- ftd.text: I would be happy to hear from you 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- end: ftd.row
@@ -125,7 +125,7 @@ align-self: center
 margin-top.vw: 2
 
 -- ftd.text: P.S. If this wasn't enough for you no worries!  
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- end: ftd.row
@@ -136,7 +136,7 @@ align-self: center
 padding-bottom.vw: 4
 
 -- ftd.text: you can also find more 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: ABOUT 
@@ -149,7 +149,7 @@ $on-mouse-enter$: $ftd.set-bool($a = $swe-folio-3.hover-text-about, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-about, v = false)
 
 -- ftd.text: me here ;) 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 margin-left.px: 8
 
@@ -188,7 +188,7 @@ margin-horizontal.vw: 2
 align-self: center 
 
 -- ftd.text: $swe-folio-3.about
-role:  $limelight-font-size-20-400
+role:   $inherited.types.copy-large
 color: #000000
 
 -- end: ftd.row
@@ -199,7 +199,7 @@ margin-horizontal.vw: 2
 margin-top.vw: 6
 
 -- ftd.text: Here you can see some of my latest
-role:  $limelight-font-size-20-400
+role:   $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: WORK
@@ -213,12 +213,13 @@ $on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-work, v = false)
 -- end: ftd.column
 
 -- ftd.column:
+width: fill-container
 padding-horizontal.vw: 2
 margin-top.vw: 6
 align-self: center
 
 -- ftd.text: Feel free to snoop around on my 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: SOCIAL MEDIA
@@ -232,12 +233,13 @@ $on-mouse-leave$: $ftd.set-bool($a = $swe-folio-3.hover-text-social, v = false)
 -- end: ftd.column
 
 -- ftd.column:
+width: fill-container
 padding-horizontal.vw: 2
 align-self: center
 margin-top.vw: 6
 
 -- ftd.text: For inquiries or a how you doing 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: CONTACT ME,
@@ -256,7 +258,7 @@ align-self: center
 margin-top.vw: 6
 
 -- ftd.text: I would be happy to hear from you 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- end: ftd.row
@@ -267,7 +269,7 @@ align-self: center
 margin-top.vw: 6
 
 -- ftd.text: P.S. If this wasn't enough for you no worries!  
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- end: ftd.row
@@ -277,7 +279,7 @@ padding-horizontal.vw: 2
 margin-bottom.vw: 8
 
 -- ftd.text: you can also find more 
-role: $limelight-font-size-20-400
+role:  $inherited.types.copy-large
 color: #000000
 
 -- ftd.text: ABOUT ME
